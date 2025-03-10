@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace C_Sharp_OOP
 {
-    class Program
+    class Class1
     {
-        static void Main(string[] args)
-        {
-            Class1 a = new Class1();
-            a.display();
+        string message = "Hello World !";
 
+        public void display()
+        {
+            Console.WriteLine(message);
         }
     }
 }
