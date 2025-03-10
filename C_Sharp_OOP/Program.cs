@@ -10,9 +10,8 @@ namespace C_Sharp_OOP
     {
         static void Main(string[] args)
         {
-            Class1 a = new Class1();
+            Constructor a = new Constructor(1, 2,4);
             a.display();
-
         }
     }
 }
